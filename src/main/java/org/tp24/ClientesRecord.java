@@ -1,9 +1,8 @@
 package org.tp24;
 import java.time.LocalDate;
-import java.util.Date;
 
 
-public record Clientes(
+public record ClientesRecord(
         int num_cedula,
         String nombres,
         String apellidos,

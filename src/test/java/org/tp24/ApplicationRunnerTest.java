@@ -7,7 +7,7 @@ class ApplicationRunnerTest {
     void run() {
         //Llama al log de ApplicationRunner
         ApplicationRunner runner = new ApplicationRunner();
-        //Llama al método que realiza el log
+        //Llama al metodo que realiza el log
         runner.run();
     }
 }
